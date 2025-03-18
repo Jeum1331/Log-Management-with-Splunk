@@ -1,25 +1,15 @@
-## Download Log Files
+# Welcome to the log files provided for use in Splunk analysis. Below are the details for each dataset:
 <ul>
   <li><a href="https://github.com/user-attachments/files/19321507/apache_logs.zip">apache_logs</a></li>
   <li><a href="https://github.com/user-attachments/files/19321540/apache_attack_logs.zip">apache_attack_logs</a></li>
-  <li><a href="https://github.com/user-attachments/files/19321542/windows_server_logs.zip">windows_server_logs</a></li>
+
 </ul>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log Files README</title>
-</head>
-<body>
-    <h1>README - Log Files for Splunk Management</h1>
+## Windows Server Logs
+This dataset contains logs from a Windows Server that houses the intellectual property for VSI's next-generation virtual-reality programs. The logs include crucial information for monitoring and securing this critical infrastructure.
+<ul><li><a href="https://github.com/user-attachments/files/19321542/windows_server_logs.zip">windows_server_logs</a></li></ul>
 
-    <p>Welcome to the log files provided for use in Splunk analysis. Below are the details for each dataset:</p>
-
-    <h2>1. Windows Server Logs</h2>
-    <p>This dataset contains logs from a Windows Server that houses the intellectual property for VSI's next-generation virtual-reality programs. The logs include crucial information for monitoring and securing this critical infrastructure.</p>
-    <p>Usage: These logs should be analyzed for any potential security incidents, system events, or performance issues that could affect the intellectual property hosted on this server.</p>
+<ul><li>Usage: These logs should be analyzed for any potential security incidents, system events, or performance issues that could affect the intellectual property hosted on this server.</li></ul>
 
     <h2>2. Apache Server Logs</h2>
     <p>This dataset contains logs from the Apache server running VSI's main public-facing website, <a href="https://vsi-company.com">vsi-company.com</a>. These logs track HTTP requests, errors, and other web traffic related to the site.</p>
