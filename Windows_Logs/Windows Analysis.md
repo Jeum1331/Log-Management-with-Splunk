@@ -42,7 +42,7 @@ In this first part, you will upload and analyze Windows security logs that repre
 
 # Part 2: Create Reports, Alerts, and Dashboards for the Windows Logs
 In this part, you will create reports, alerts, and dashboards to monitor for suspicious activity against VSI’s Windows server. Design the following deliverables to protect VSI from potential attacks by JobeCorp:
-<h2>2. Reports</h2>
+<h2>1. Reports</h2>
 Design the following reports to assist VSI in quickly identifying specific information. Be sure to grab screenshots of each report:</p>
     <ol>
         <li><strong>A report with a table of signatures and associated signature IDs:</strong>
