@@ -8,7 +8,7 @@
 <body>
     <h1>Part 3: Load Windows Attack Logs</h1>
 
-  <p>In this first part, you will upload Windows attack logs into your Splunk environment. To do so, complete the following steps:</p>
+  <p>In this first part, you will upload Windows attack logs into your Splunk environment.</p>
 
   <h1>Part 4: Analyze Windows Attack Logs</h1>
 
