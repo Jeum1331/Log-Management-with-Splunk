@@ -67,3 +67,5 @@ Expand log sources to include network and firewall logs.
 This project helped me build hands-on expertise in log analysis, threat detection, and security monitoring using Splunk. It provided valuable insights into SOC operations and real-world cybersecurity challenges.
 
 🔎 Feel free to explore my work, and reach out if you have any questions or suggestions!
+### Download Log Files
+- [Windows Server Logs](https://raw.githubusercontent.com/Jeum1331/Log-Management-with-Splunk/main/Datasets/windows_server_logs.csv)
