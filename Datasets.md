@@ -6,7 +6,8 @@
 </ul>
 
 ### Windows Server Logs
-<ul>This dataset contains logs from a Windows Server that houses the intellectual property for VSI's next-generation virtual-reality programs. The logs include crucial information for monitoring and securing this critical infrastructure.
+<ul>
+This dataset contains logs from a Windows Server that houses the intellectual property for VSI's next-generation virtual-reality programs. The logs include crucial information for monitoring and securing this critical infrastructure.
 <li></li><a href="https://github.com/user-attachments/files/19321542/windows_server_logs.zip">windows_server_logs</a></li>
 
 Usage: These logs should be analyzed for any potential security incidents, system events, or performance issues that could affect the intellectual property hosted on this server.</ul>
