@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Part 3 and Part 4</title>
+   
 </head>
 <body>
-    <h1>README - Part 3: Load Windows Attack Logs</h1>
+    <h1>Part 3: Load Windows Attack Logs</h1>
 
   <p>In this first part, you will upload Windows attack logs into your Splunk environment. To do so, complete the following steps:</p>
 
