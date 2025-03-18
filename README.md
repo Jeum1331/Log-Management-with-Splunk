@@ -55,13 +55,12 @@ VSI designs virtual-reality programs for businesses. Recently, rumors suggest th
 
 <li>Splunk Add-ons (Enhanced monitoring and automation)</li></ul>
 
-## Next Steps
-
-Fine-tune alerts to reduce false positives.
-
-Implement threat intelligence feeds in Splunk.
-
-Expand log sources to include network and firewall logs.
+## Resorces
+<ul>
+  <li>https://splunkbase.splunk.com/</li>
+  <li>https://docs.splunk.com/Documentation</li>
+  <li>https://docs.splunk.com/Documentation/AddOns/released/Overview/AboutSplunkAdd-ons</li>
+</ul>
 
 ## Conclusion
 This project helped me build hands-on expertise in log analysis, threat detection, and security monitoring using Splunk. It provided valuable insights into SOC operations and real-world cybersecurity challenges.
