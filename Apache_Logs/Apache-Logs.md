@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Part 1 and Part 2</title>
 </head>
 <body>
     <h1>Part 1: Load and Analyze Apache Logs</h1>
