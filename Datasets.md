@@ -1,5 +1,5 @@
-## Welcome to the log files provided for use in Splunk analysis.
-### Below are the details for each dataset:
+# Welcome to the log files provided for use in Splunk analysis.
+## Below are the details for each dataset:
 ### Windows Server Logs
 <ul>
 This dataset contains logs from a Windows Server that houses the intellectual property for VSI's next-generation virtual-reality programs. The logs include crucial information for monitoring and securing this critical infrastructure.
