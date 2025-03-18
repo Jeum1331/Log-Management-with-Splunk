@@ -1,4 +1,5 @@
-## Welcome to the log files provided for use in Splunk analysis. Below are the details for each dataset:
+## Welcome to the log files provided for use in Splunk analysis.
+### Below are the details for each dataset:
 
 ### Windows Server Logs
 <ul>
