@@ -1,56 +1,125 @@
-Part 1: Load and Analyze Apache Logs
-In this part, you will upload and analyze Apache web server logs that represent “regular” activity for VSI into your Splunk environment. To do so, complete the following steps:
-Return to the “Add Data” option within Splunk.
-Since you will upload the provided log file, select the “Upload” option.
-Click “Select File.”
-Select the apache_logs.txt file.
-Click the green “Next” button in the top right.
-You’ll be brought to the “Set Source Type” page.
-You don’t need to change any configurations on this page.
-Select “Next” again.
-You’ll be brought to the “Input Settings” page.
-This page contains optional settings for how the data is input.
-In the “Host” field, Splunk uses a random value to name the machine or device that generated the logs.
-Update the value to “Apache_logs” and then select “Review.”
-On the “Review” page, verify that you’ve chosen the correct settings, as the following image shows:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - Part 1 and Part 2</title>
+</head>
+<body>
+    <h1>Part 1: Load and Analyze Apache Logs</h1>
 
-Select “Submit” to proceed with uploading your data into Splunk.
-Once the file has successfully uploaded, a message that says “File has been uploaded successfully” will appear on the screen.
-Select “Start Searching.”
-⚠️ Important: After the data populates on the search, select “All Time” for the time range.
-Briefly analyze the logs and the available fields, specifically examining the following important fields:
-method
-referer_domain
-status
-clientip
-useragent
+   <p>In this part, you will upload and analyze Apache web server logs that represent “regular” activity for VSI into your Splunk environment. To do so, complete the following steps:</p>
 
-Part 2: Create Reports, Alerts, and Dashboards for the Apache Logs
-In this part, you will create reports, alerts, and dashboards to monitor for suspicious activity against VSI’s Apache web server. To do so, complete the following steps:
-Design the following deliverables to protect VSI from potential attacks by JobeCorp:
-Reports: Design the following reports to assist VSI in quickly identifying specific information (make sure to grab screenshots of each report):
-A report that shows a table of the different HTTP methods (GET, POST, HEAD, etc.).
-This will provide insight into the type of HTTP activity being requested against VSI’s web server.
-A report that shows the top 10 domains that refer to VSI’s website.
-This will assist VSI with identifying suspicious referrers.
-A report that shows the count of each HTTP response code.
-This will provide insight into any suspicious levels of HTTP responses.
-Alerts: Design the following alerts:
-Determine a baseline and threshold for hourly activity from any country besides the United States.
-Create an alert that’s triggered when the threshold has been reached.
-The alert should trigger an email to SOC@VSI-company.com.
-Determine an appropriate baseline and threshold for the hourly count of the HTTP POST method.
-Create an alert that’s triggered when the threshold has been reached.
-The alert should trigger an email to SOC@VSI-company.com.
-Visualizations and dashboards: Design the following visualizations, and add them to a dashboard called “Apache Web Server Monitoring” (be creative with your visualizations, and make sure to grab screenshots of each):
-A line chart that displays the different HTTP “methods” field values over time.
-Hint: Add the following after your search: timechart span=1h count by method.
-A geographical map showing the location based on the “clientip” field.
-Any visualization of your choice that displays the number of different URIs.
-Hint: You can add brand-new custom visualizations by accessing this page inside your VM: Additional Viz.
-Any visualization of your choice that displays the count of the top 10 countries that appear in the log.
-Any visualization that illustrates the count of different user agents.
-A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization from http://localhost:8000/en-US/manager/search/appsremote?content=visualizations&type=app).
-On your dashboard, add the ability to change the time range for all visualizations.
-Be sure to title all of your panels appropriately.
-Organize the panels on your dashboard as you see fit.
+   <ol>
+        <li>Return to the “Add Data” option within Splunk.</li>
+        <li>Since you will upload the provided log file, select the “Upload” option.
+            <ul>
+                <li>Click “Select File.”</li>
+                <li>Select the apache_logs.txt file.</li>
+                <li>Click the green “Next” button in the top right.</li>
+            </ul>
+        </li>
+        <li>You’ll be brought to the “Set Source Type” page.
+            <ul>
+                <li>You don’t need to change any configurations on this page.</li>
+                <li>Select “Next” again.</li>
+            </ul>
+        </li>
+        <li>You’ll be brought to the “Input Settings” page.
+            <ul>
+                <li>This page contains optional settings for how the data is input.</li>
+                <li>In the “Host” field, Splunk uses a random value to name the machine or device that generated the logs.</li>
+                <li>Update the value to “Apache_logs” and then select “Review.”</li>
+            </ul>
+        </li>
+        <li>On the “Review” page, verify that you’ve chosen the correct settings, as the following image shows:
+            <ul>
+                <li>Select “Submit” to proceed with uploading your data into Splunk.</li>
+            </ul>
+        </li>
+        <li>Once the file has successfully uploaded, a message that says “File has been uploaded successfully” will appear on the screen.</li>
+        <li>Select “Start Searching.”</li>
+        <li>⚠️ Important: After the data populates on the search, select “All Time” for the time range.</li>
+        <li>Briefly analyze the logs and the available fields, specifically examining the following important fields:
+            <ul>
+                <li>method</li>
+                <li>referer_domain</li>
+                <li>status</li>
+                <li>clientip</li>
+                <li>useragent</li>
+            </ul>
+        </li>
+    </ol>
+
+   <h1>Part 2: Create Reports, Alerts, and Dashboards for the Apache Logs</h1>
+
+  <p>In this part, you will create reports, alerts, and dashboards to monitor for suspicious activity against VSI’s Apache web server. To do so, complete the following steps:</p>
+
+   <ol>
+        <li>Design the following deliverables to protect VSI from potential attacks by JobeCorp:
+            <ul>
+                <li><b>Reports:</b> Design the following reports to assist VSI in quickly identifying specific information (make sure to grab screenshots of each report):
+                    <ul>
+                        <li>A report that shows a table of the different HTTP methods (GET, POST, HEAD, etc.).
+                            <ul>
+                                <li>This will provide insight into the type of HTTP activity being requested against VSI’s web server.</li>
+                            </ul>
+                        </li>
+                        <li>A report that shows the top 10 domains that refer to VSI’s website.
+                            <ul>
+                                <li>This will assist VSI with identifying suspicious referrers.</li>
+                            </ul>
+                        </li>
+                        <li>A report that shows the count of each HTTP response code.
+                            <ul>
+                                <li>This will provide insight into any suspicious levels of HTTP responses.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Alerts:</b> Design the following alerts:
+                    <ul>
+                        <li>Determine a baseline and threshold for hourly activity from any country besides the United States.
+                            <ul>
+                                <li>Create an alert that’s triggered when the threshold has been reached.</li>
+                                <li>The alert should trigger an email to SOC@VSI-company.com.</li>
+                            </ul>
+                        </li>
+                        <li>Determine an appropriate baseline and threshold for the hourly count of the HTTP POST method.
+                            <ul>
+                                <li>Create an alert that’s triggered when the threshold has been reached.</li>
+                                <li>The alert should trigger an email to SOC@VSI-company.com.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Visualizations and Dashboards:</b> Design the following visualizations, and add them to a dashboard called “Apache Web Server Monitoring” (be creative with your visualizations, and make sure to grab screenshots of each):
+                    <ul>
+                        <li>A line chart that displays the different HTTP “methods” field values over time.
+                            <ul>
+                                <li>Hint: Add the following after your search: timechart span=1h count by method.</li>
+                            </ul>
+                        </li>
+                        <li>A geographical map showing the location based on the “clientip” field.</li>
+                        <li>Any visualization of your choice that displays the number of different URIs.
+                            <ul>
+                                <li>Hint: You can add brand-new custom visualizations by accessing this page inside your VM: Additional Viz.</li>
+                            </ul>
+                        </li>
+                        <li>Any visualization of your choice that displays the count of the top 10 countries that appear in the log.</li>
+                        <li>Any visualization that illustrates the count of different user agents.</li>
+                        <li>A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization from http://localhost:8000/en-US/manager/search/appsremote?content=visualizations&type=app).</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>On your dashboard, add the ability to change the time range for all visualizations.
+            <ul>
+                <li>Be sure to title all of your panels appropriately.</li>
+                <li>Organize the panels on your dashboard as you see fit.</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
+
