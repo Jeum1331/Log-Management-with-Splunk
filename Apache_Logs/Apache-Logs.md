@@ -9,6 +9,9 @@
 
    <p>In this part, you will upload and analyze Apache web server logs that represent “regular” activity for VSI into your Splunk environment. To do so, complete the following steps:</p>
 
+   [apache_logs.zip](https://github.com/user-attachments/files/19326857/apache_logs.zip)
+
+
    <ol>
         <li>Return to the “Add Data” option within Splunk.</li>
         <li>Since you will upload the provided log file, select the “Upload” option.
