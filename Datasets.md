@@ -7,9 +7,9 @@
 
 ### Windows Server Logs
 <ul>This dataset contains logs from a Windows Server that houses the intellectual property for VSI's next-generation virtual-reality programs. The logs include crucial information for monitoring and securing this critical infrastructure.
-<a href="https://github.com/user-attachments/files/19321542/windows_server_logs.zip">windows_server_logs</a>
+<li></li><a href="https://github.com/user-attachments/files/19321542/windows_server_logs.zip">windows_server_logs</a></li>
 
-<li>Usage: These logs should be analyzed for any potential security incidents, system events, or performance issues that could affect the intellectual property hosted on this server.</li></ul>
+Usage: These logs should be analyzed for any potential security incidents, system events, or performance issues that could affect the intellectual property hosted on this server.</ul>
 
 ### Apache Server Logs
 This dataset contains logs from the Apache server running VSI's main public-facing website, <a href="https://vsi-company.com">vsi-company.com</a>. These logs track HTTP requests, errors, and other web traffic related to the site.
