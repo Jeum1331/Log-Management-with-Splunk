@@ -1,134 +1,94 @@
-Part 1: Load Windows Attack Logs
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README - Part 3 and Part 4</title>
+</head>
+<body>
+    <h1>README - Part 3: Load Windows Attack Logs</h1>
 
-In this first part, you will upload Windows attack logs into your Splunk environment. To do so, complete the following steps:
-Select the “Add Data” option within Splunk.
-Since you will upload the provided log file, select the “Upload” option.
-Click “Select File.”
-Select the windows_server_attack_logs.csv file located in the /splunk/logs/Week-2-Day-3-Logs/ directory.
-Click the green “Next” button on the top right.
-You will be brought to the “Set Source Type” page.
-You don’t need to change any configurations on this page.
-Select “Next” again.
-You’ll be brought to the “Input Settings” page.
-This page contains optional settings for how the data is input.
-In the “Host” field value, Splunk uses a random value to name the machine or device that generated the logs.
-Update the value to “Windows_server_logs” and then select “Review.”
-On the “Review” page, verify that you’ve chosen the correct settings.
-Select “Submit” to proceed with uploading your data into Splunk.
-Once the file has successfully uploaded, a message that says “File has been uploaded successfully” will appear.
-Select “Start Searching.”
-⚠️ Important: After the data populates on the search, select “All Time” for the time range.
+  <p>In this first part, you will upload Windows attack logs into your Splunk environment. To do so, complete the following steps:</p>
 
-Part 2: Analyze Windows Attack Logs
+   <ol>
+        <li>Select the “Add Data” option within Splunk.</li>
+        <li>Since you will upload the provided log file, select the “Upload” option.
+            <ul>
+                <li>Click “Select File.”</li>
+                <li>Select the windows_server_attack_logs.csv file.</li>
+                <li>Click the green “Next” button on the top right.</li>
+            </ul>
+        </li>
+        <li>You will be brought to the “Set Source Type” page.
+            <ul>
+                <li>You don’t need to change any configurations on this page.</li>
+                <li>Select “Next” again.</li>
+            </ul>
+        </li>
+        <li>You’ll be brought to the “Input Settings” page.
+            <ul>
+                <li>This page contains optional settings for how the data is input.</li>
+                <li>In the “Host” field value, Splunk uses a random value to name the machine or device that generated the logs.</li>
+                <li>Update the value to “Windows_server_logs” and then select “Review.”</li>
+            </ul>
+        </li>
+        <li>On the “Review” page, verify that you’ve chosen the correct settings.
+            <ul>
+                <li>Select “Submit” to proceed with uploading your data into Splunk.</li>
+            </ul>
+        </li>
+        <li>Once the file has successfully uploaded, a message that says “File has been uploaded successfully” will appear.</li>
+        <li>Select “Start Searching.”</li>
+        <li>⚠️ Important: After the data populates on the search, select “All Time” for the time range.</li>
+    </ol>
 
+  <h1>Part 4: Analyze Windows Attack Logs</h1>
 
-In this part, you will review the reports, alerts, and dashboards that you created on Day 1 and analyze the results. To do so, complete the following steps:
-Report Analysis for Severity
+  <p>In this part, you will review the reports, alerts, and dashboards that you created on Day 1 and analyze the results. To do so, complete the following steps:</p>
+    <h2>Report Analysis for Severity</h2>
+    <ol>
+        <li>Access the “Reports” tab, and select “Yours” to view the reports that you created on your Windows Server Logs.</li>
+        <li>Select the report that you created to analyze the different severities.</li>
+        <li>Select “Open in Search.”</li>
+        <li>Take note of the percentages of different severities.</li>
+        <li>Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".</li>
+        <li>Select “Save.”</li>
+        <li>Review the updated results, and answer the following question in the Project 3 Review Questions document:
+            <ul>
+                <li>Did you detect any suspicious changes in severity?</li>
+            </ul>
+        </li>
+    </ol>
 
-Access the “Reports” tab, and select “Yours” to view the reports that you created on Day 1.
-Select the report that you created to analyze the different severities.
-Select “Open in Search.”
-Take note of the percentages of different severities.
-Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".
-Select “Save.”
-Review the updated results, and answer the following question in the Project 3 Review Questions document:
-Did you detect any suspicious changes in severity?
-Note: You will use this same document for the remaining review questions.
+  <h2>Report Analysis for Failed Activities</h2>
+    <ol>
+        <li>Access the “Reports” tab, and select “Yours” to view the reports that you created for Windows Server Logs.</li>
+        <li>Select the report that you created to analyze the different activities.</li>
+        <li>Select “Open in Search.”</li>
+        <li>Take note of the failed activities percentage.</li>
+        <li>Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".</li>
+        <li>Select “Save.”</li>
+        <li>Review the updated results, and answer the following question in the review document:
+            <ul>
+                <li>Did you detect any suspicious changes in failed activities?</li>
+            </ul>
+        </li>
+    </ol>
 
+   <h2>Alert Analysis for Failed Windows Activity</h2>
+    <ol>
+        <li>Access the “Alerts” tab, and select “Yours” to view the alerts that you created for Windows Logs.</li>
+        <li>Select the alert for suspicious volume of failed activities.</li>
+        <li>Select “Open in Search.”</li>
+        <li>Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".</li>
+        <li>Review the updated results, and answer the following questions in the review document:
+            <ul>
+                <li>Did you detect a suspicious volume of failed activity?</li>
+                <li>If so, what was the count of events in the hour(s) it occurred?</li>
+                <li>When did it occur?</li>
+                <li>Would your alert be triggered for this activity?</li>
+                <li>After reviewing, would you change your threshold from what you previously selected?</li>
+            </ul>
+        </li>
+   
 
-
-Report Analysis for Failed Activities
-
-Access the “Reports” tab, and select “Yours” to view the reports that you created on Day 1.
-Select the report that you created to analyze the different activities.
-Select “Open in Search.”
-Take note of the failed activities percentage.
-Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".
-Select “Save.”
-Review the updated results, and answer the following question in the review document:
-Did you detect any suspicious changes in failed activities?
-Now, you will review the alerts that you created on Day 1 and analyze the results.
-
-Alert Analysis for Failed Windows Activity
-
-Access the “Alerts” tab, and select “Yours” to view the alerts that you created on Day 1.
-Select the alert for suspicious volume of failed activities.
-Select “Open in Search.”
-Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".
-Review the updated results, and answer the following questions in the review document (note that your alerts will not trigger; this is a theoretical exercise):
-Did you detect a suspicious volume of failed activity?
-If so, what was the count of events in the hour(s) it occurred?
-When did it occur?
-Would your alert be triggered for this activity?
-After reviewing, would you change your threshold from what you previously selected?
-
-Alert Analysis for Successful Logins
-
-Access the “Alerts” tab, and select “Yours” to view the alerts that you created on Day 1.
-Select the alert for suspicious volume of successful logins.
-Select “Open in Search.”
-Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".
-Review the updated results, and answer the following questions in the review document:
-Did you detect a suspicious volume of successful logins?
-If so, what was the count of events in the hour(s) it occurred?
-Who is the primary user logging in?
-When did it occur?
-Would your alert be triggered for this activity?
-After reviewing, would you change your threshold from what you previously selected?
-
-Alert Analysis for Deleted Accounts
-
-Access the “Alerts” tab, and select “Yours” to view the alerts that you created on Day 1.
-Select the alert for suspicious volume of deleted accounts.
-Select “Open in Search.”
-Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".
-Review the updated results, and answer the following question in the review document:
-Did you detect a suspicious volume of deleted accounts?
-Next, you will view your dashboard and analyze the results.
-
-Dashboard Setup
-
-Access the Windows Web Server Monitoring dashboard.
-Select “Edit.”
-For each panel that you created, access the panel and complete the following steps:
-Select “Edit Search.”
-Change the source from windows_server_logs.csv to source="windows_server_attack_logs.csv".
-Select “Apply.”
-Save the dashboard.
-Change the time on the whole dashboard to “All Time.”
-
-Dashboard Analysis for Time Chart of Signatures
-
-Analyze your new dashboard results, and answer the following questions in the review document:
-Does anything stand out as suspicious?
-What signatures stand out?
-What time did each signature’s suspicious activity begin and stop?
-What is the peak count of the different signatures?
-
-Dashboard Analysis for Users
-
-
-Analyze your new dashboard results, and answer the following questions in the review document:
-Does anything stand out as suspicious?
-Which users stand out?
-What time did each user’s suspicious activity begin and stop?
-What is the peak count of the different users?
-
-Dashboard Analysis for Signatures with Bar, Graph, and Pie Charts
-
-Analyze your new dashboard results, and answer the following questions in the review document:
-Does anything stand out as suspicious?
-Do the results match your findings from the time chart for signatures?
-
-Dashboard Analysis for Users with Bar, Graph, and Pie Charts
-
-
-Analyze your new dashboard results, and answer the following questions in the review document:
-Does anything stand out as suspicious?
-Do the results match your findings from the time chart for users?
-
-Dashboard Analysis for Users with Statistical Charts
-
-
-Analyze your new dashboard results, and answer the following question in the review document:
-What are the advantages and disadvantages of using this report, compared to the other user panels that you created?
