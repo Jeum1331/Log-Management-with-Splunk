@@ -1,5 +1,4 @@
 # Part 1: Load and Analyze Windows Logs
-Windows Server Log Analysis in Splunk
 In this first part, you will upload and analyze Windows security logs that represent "regular" activity for VSI into your Splunk environment. To do so, complete the following steps:
 <ol>
         <li>Select the “Add Data” option within Splunk.</li>
