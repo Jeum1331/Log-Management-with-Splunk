@@ -4,6 +4,7 @@
   <li><a href="https://github.com/user-attachments/files/19321540/apache_attack_logs.zip">apache_attack_logs</a></li>
   <li><a href="https://github.com/user-attachments/files/19321542/windows_server_logs.zip">windows_server_logs</a></li>
 </ul>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,13 +25,6 @@
     <p>This dataset contains logs from the Apache server running VSI's main public-facing website, <a href="https://vsi-company.com">vsi-company.com</a>. These logs track HTTP requests, errors, and other web traffic related to the site.</p>
     <p>Usage: The Apache logs are ideal for analyzing web traffic patterns, identifying potential security vulnerabilities (e.g., DDoS attacks or SQL injection attempts), and understanding how users are interacting with the public website.</p>
 
-    <h2>3. Links to Documentation and Datasets</h2>
-    <p>For detailed documentation and more information on these datasets, please visit the following links:</p>
-    <ul>
-        <li><a href="https://splunkbase.splunk.com/">Splunkbase</a></li>
-        <li><a href="https://docs.splunk.com/Documentation">Splunk Documentation</a></li>
-        <li><a href="https://docs.splunk.com/Documentation/AddOns/released/Overview/AboutSplunkAdd-ons">About Splunk Add-ons</a></li>
-    </ul>
 
     <h2>Usage Instructions</h2>
     <p>To analyze these logs using Splunk, follow the instructions provided in the <a href="https://github.com/Jeum1331/Log-Management-with-Splunk/blob/main/Datasets.md">Log Management with Splunk</a> guide. You will find detailed instructions on how to ingest, search, and analyze these logs to gain insights into system performance, security, and usage patterns.</p>
