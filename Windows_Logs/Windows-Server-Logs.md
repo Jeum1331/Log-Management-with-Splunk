@@ -115,8 +115,8 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li>The alert should trigger an email to <code>SOC@VSI-company.com</code>.</li>
  <table border="1">
          <tr>
-                <td><img src="https://github.com/user-attachments/assets/58465e43-aae6-4c62-867c-1c062ec76bf4" width="500"></td>
-                <td><img src="https://github.com/user-attachments/assets/b771d3cb-4967-4419-bfaa-825412e418a8" width="500"></td>
+                <td><img src="https://github.com/user-attachments/assets/58465e43-aae6-4c62-867c-1c062ec76bf4" width="600"></td>
+                <td><img src="https://github.com/user-attachments/assets/b771d3cb-4967-4419-bfaa-825412e418a8" width="550"></td>
             </tr>
  </table>
 
