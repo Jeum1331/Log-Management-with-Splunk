@@ -42,7 +42,7 @@ In this first part, you will upload and analyze Windows security logs that repre
     </tr>
     <tr>
         <td><code>signature_id</code></td>
-        <td><img src="" alt="sigID" width="700"></td>
+        <td><img src="https://github.com/user-attachments/assets/e184d31b-b8cf-4082-a310-c81074c62001" alt="sigID" width="700"></td>
     </tr>
     <tr>
         <td><code>Signature</code></td>
