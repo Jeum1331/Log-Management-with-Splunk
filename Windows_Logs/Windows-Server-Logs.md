@@ -148,7 +148,14 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li>Design the alert based on the corresponding signature ID, as the signature name sometimes changes when the Windows system updates.</li>
                 <li>Create an alert that's triggered when the threshold has been reached.</li>
                 <li>The alert should trigger an email to <code>SOC@VSI-company.com</code>.</li>
-            </ul>
+<table border="1">
+         <tr>
+                <td><img src="https://github.com/user-attachments/assets/55617aa1-0b67-40b5-82e8-151d9bc11f4f" width="650"></td>
+                <td><img src="https://github.com/user-attachments/assets/32cf597b-8838-4eb9-9afb-dfcd5af1165c" width="600"></td>
+</tr>
+ </table>
+
+</ul>
         </li>
     </ol>
 
