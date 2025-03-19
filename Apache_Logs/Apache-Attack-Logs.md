@@ -67,12 +67,12 @@ In this part, you will upload Apache attack logs into your Splunk environment.
                 <p>Yes, I detected changes in HTTP code:</p>
                   <ul>
                    <li>-200(OK): The day of the attack it decreased the count.</li>
-                   <li>-404(not found): the day of the attack it increased</li>
+                   <li>-404(not found): tThe day of the attack it increased.</li>
             </ul>
         </li>
     </ol>
 
-  <h2>Now, you will review the alerts that you created on Day 1 and analyze the results.</h2>
+  <h2>Now, you will review the alerts that you created for the <code>Apache_logs.txt</code> and analyze the results.</h2>
 
   <h3>Alert Analysis for International Activity</h3>
     <ol>
