@@ -151,7 +151,7 @@
 <table border="1">
     <tr>
         <td><img src="https://github.com/user-attachments/assets/66f9d6c3-8cce-4c1c-802f-323d4a6d5c4e" with="600"></td>
-        <td><img src="https://github.com/user-attachments/assets/d1ba950c-10b6-441d-a0b4-adea830336d2" width="650"></td>
+        <td><img src="https://github.com/user-attachments/assets/d1ba950c-10b6-441d-a0b4-adea830336d2" width="800"></td>
     </tr>
 </table>
  </ul>
