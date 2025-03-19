@@ -89,7 +89,7 @@
                             <ul>
                                 <li>This will provide insight into the type of HTTP activity being requested against VSI’s web server.</li>
              <pre><code>source="</code>source="apache_logs.txt"  method="GET"</pre>
-             <br>
+
 <table border="1">
     <tr>
         <td>GET</td>
