@@ -73,16 +73,15 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li><span class="hint">Hint: Research how to remove the duplicate values in your SPL search.</span></li>
                 <li>Take a screenshot of the report.</li>
             </ul>
-        </li>
+<img src="https://github.com/user-attachments/assets/ea444322-1203-41a1-a7df-038710467952" width="700">
+                
+</li>
         <li><strong>A report that displays the severity levels, and the count and percentage of each:</strong>
             <ul>
                 <li>This will allow VSI to quickly understand the severity levels of the Windows logs being viewed.</li>
                 <li>Take a screenshot of the report.</li>
             </ul>
-
-![image](https://github.com/user-attachments/assets/a054c1aa-2927-40fb-ba7b-ccaf14a4cf5d)
-
-        </li>
+ </li>
         <li><strong>A report that provides a comparison between the success and failure of Windows activities:</strong>
             <ul>
                 <li>This will show VSI if there is a suspicious level of failed activities on their server.</li>
