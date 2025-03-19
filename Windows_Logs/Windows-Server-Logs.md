@@ -184,7 +184,9 @@ Design the following reports to assist VSI in quickly identifying specific infor
         </li>
         <li><strong>Any visualization that illustrates the count of different users:</strong>
             <ul>
-              <table border="1">
+        <pre>code>host="Windows_Server_Logs" source="windows_server_logs.csv" | stats count by user | sort - count</code></pre>
+        <br>
+ <table border="1">
          <tr>
                 <td><img src="https://github.com/user-attachments/assets/a42bffd3-f4a5-46bb-b685-a5578e2f152e" width="650"></td>
                 <td><img src="https://github.com/user-attachments/assets/9cf029c6-99ef-4bf3-9656-c157f51ab13f" width="650"></td>
