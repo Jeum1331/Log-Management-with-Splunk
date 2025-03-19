@@ -123,6 +123,10 @@ Design the following reports to assist VSI in quickly identifying specific infor
 </ul>
         </li>
         <li><strong>Determine a baseline and threshold for the hourly count of the signature “an account was successfully logged on.”</strong>
+        <pre><code>host=Windows_Server_Logs source="windows_server_logs.csv" signature_id="4624"| timechart span=1h count as successful_logins</code></pre>
+        <br>
+        <img src="https://github.com/user-attachments/assets/dd71966d-0e07-48c3-8456-31c54579ac78" width="700"
+">
             <ul>
                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
                 <li>The alert should trigger an email to <code>SOC@VSI-company.com</code>.</li>
