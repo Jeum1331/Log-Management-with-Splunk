@@ -84,7 +84,7 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li>Take a screenshot of the report.</li>
         <pre><code>source="windows_server_logs.csv" host="Windows_Server_Logs" | top severity</code></pre>
         <br>
-        <img src="(https://github.com/user-attachments/assets/6b6a8baa-c00c-4df5-abd0-6f746f1b2d38" width="700">
+        <img src="https://github.com/user-attachments/assets/6b6a8baa-c00c-4df5-abd0-6f746f1b2d38" width="700">
             </ul>
  </li>
         <li><strong>A report that provides a comparison between the success and failure of Windows activities:</strong>
