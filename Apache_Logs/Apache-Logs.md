@@ -156,6 +156,9 @@
     </tr>
 </table>
                         <li>Determine an appropriate baseline and threshold for the hourly count of the HTTP POST method.
+<pre><code>source="apache_logs.txt"  method="post" | timechart span=1h count as post_method</code></pre>
+<br>
+<img src="https://github.com/user-attachments/assets/6e3805a1-180f-4364-bca0-1b3c81632503" width="700">
                             <ul>
                                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
                                 <li>The alert should trigger an email to SOC@VSI-company.com.</li>
