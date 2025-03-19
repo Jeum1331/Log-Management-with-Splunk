@@ -81,7 +81,6 @@ Design the following reports to assist VSI in quickly identifying specific infor
         <li><strong>A report that displays the severity levels, and the count and percentage of each:</strong>
             <ul>
                 <li>This will allow VSI to quickly understand the severity levels of the Windows logs being viewed.</li>
-                <li>Take a screenshot of the report.</li>
         <pre><code>source="windows_server_logs.csv" host="Windows_Server_Logs" | top severity</code></pre>
         <br>
         <img src="https://github.com/user-attachments/assets/6b6a8baa-c00c-4df5-abd0-6f746f1b2d38" width="700">
@@ -91,7 +90,6 @@ Design the following reports to assist VSI in quickly identifying specific infor
             <ul>
                 <li>This will show VSI if there is a suspicious level of failed activities on their server.</li>
                 <li><span class="hint">Hint: Check the “status” field for this information.</span></li>
-                <li>Take a screenshot of the report.</li>
             </ul>
         <pre><code>source="windows_server_logs.csv" host="Windows_Server_Logs" | top status</code></pre>
         <br>
@@ -164,9 +162,11 @@ Design the following reports to assist VSI in quickly identifying specific infor
     <ol>
         <li><strong>A line chart that displays the different “signature” field values over time:</strong>
             <ul>
-                <li><span class="hint">Hint: Add the following after your search: <code>timechart span=1h count by signature</code></span></li>
-                <li>Take a screenshot of the chart.</li>
-            </ul>
+<pre><code>host="Windows_Server_Logs" source="windows_server_logs.csv" | timechart span=1hr count by signature</code></pre>
+          <br>
+<img src="https://github.com/user-attachments/assets/979623b4-d90d-4346-8ac4-9512a5d2f77b" width="700">                    
+   
+</ul>
         </li>
         <li><strong>A line chart that displays the different “user” field values over time:</strong>
             <ul>
