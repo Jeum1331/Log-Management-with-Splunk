@@ -39,7 +39,8 @@ In this first part, you will upload and analyze Windows security logs that repre
                 <li><code>signature</code></li>
                 <li><code>user</code></li>
                 <li><code>status</code></li>
-                <li><code>severity</code></li>
+                <li><code>severity</code></li>  ![image](https://github.com/user-attachments/assets/c196c877-3ae4-4554-9df1-cad20d75eb68)
+
             </ul>
         </li>
     </ol>
