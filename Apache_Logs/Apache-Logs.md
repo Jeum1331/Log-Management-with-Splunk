@@ -98,9 +98,8 @@
        </table> 
     <br>
                                 
- <pre><code>source="apache_logs.txt"  method="POST"</code></pre>
-<br>                         
-    <table border="1">
+ <pre><code>source="apache_logs.txt"  method="POST"</code></pre>                      
+ <table border="1">
 <tr>
         <td>POST</td>
         <td><img src="https://github.com/user-attachments/assets/46d29f23-fa08-4d75-834a-269b0ffc41b1" width="700"></td> 
@@ -108,8 +107,7 @@
      </table> 
     <br>
                                 
- <pre><code>source="apache_logs.txt"  method="HEAD"</code></pre>
- <br>                         
+ <pre><code>source="apache_logs.txt"  method="HEAD"</code></pre>                        
   <table border="1">    
 <tr>
         <td>HEAD</td>
