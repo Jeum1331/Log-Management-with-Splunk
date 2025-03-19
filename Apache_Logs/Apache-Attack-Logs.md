@@ -102,11 +102,16 @@ In this part, you will upload Apache attack logs into your Splunk environment.
         <li>Select “Open in Search.”</li>
         <li>Change the source from source="apache_logs.txt" to source="apache_attack_logs.txt".</li>
         <li>Review the updated results, and answer the following questions in the review document:
+            <img src="https://github.com/user-attachments/assets/b5b39e82-7a5f-4c39-b851-3f59131be58e" width="700">
             <ul>
                 <li>Did you detect any suspicious volume of HTTP POST activity?</li>
+                <p>Yes.</p>
                 <li>If so, what was the count of events in the hour(s) it occurred?</li>
+                <p>It reached a peak of 1296.</p>
                 <li>When did it occur?</li>
+                <p>Wednesday, March 25th, 2020 at 20:00.</p>
                 <li>After reviewing, would you change the threshold that you previously selected?</li>
+                <p>Yes, it would've since the threshold was set to 10.</p>
             </ul>
         </li>
     </ol>
