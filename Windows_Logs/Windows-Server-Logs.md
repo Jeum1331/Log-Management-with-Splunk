@@ -135,6 +135,8 @@ Design the following reports to assist VSI in quickly identifying specific infor
          <tr>
          <td><img src="https://github.com/user-attachments/assets/b75ffe46-de80-49ab-ba42-9d43f43a1d11" width="600"></td>
          <td><img src="https://github.com/user-attachments/assets/68338ff0-a168-4ed2-a010-ee6d973cb483" width="550"></td>
+</tr>
+ </table>
 
 </ul>
         </li>
