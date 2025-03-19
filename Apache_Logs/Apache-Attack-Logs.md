@@ -66,8 +66,8 @@ In this part, you will upload Apache attack logs into your Splunk environment.
                 <li>Did you detect any suspicious changes in HTTP response codes?</li>
                 <p>Yes, I detected changes in HTTP code:</p>
                   <ul>
-                   <li>-200(OK): The day of the attack it decreased the count.</li>
-                   <li>-404(not found): tThe day of the attack it increased.</li>
+                   <li>200(OK): The day of the attack it decreased the count.</li>
+                   <li>404(not found): tThe day of the attack it increased.</li>
             </ul>
         </li>
     </ol>
