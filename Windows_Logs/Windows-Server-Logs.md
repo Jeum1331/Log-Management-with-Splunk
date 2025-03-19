@@ -1,6 +1,6 @@
 # Part 1: Load and Analyze Windows Logs
 
-[windows_server_logs.zip](https://github.com/user-attachments/files/19326877/windows_server_logs.zip)
+[windows_server_logs.csv](https://github.com/user-attachments/files/19326877/windows_server_logs.zip)
 
 
 In this first part, you will upload and analyze Windows security logs that represent "regular" activity for VSI into your Splunk environment. To do so, ensure that you are logged in and complete the following steps:
