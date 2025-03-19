@@ -177,8 +177,9 @@ Design the following reports to assist VSI in quickly identifying specific infor
         </li>
         <li><strong>Any visualization that illustrates the count of different signatures:</strong>
             <ul>
-                <li><span class="hint">Hint: You can add brand-new custom visualizations by accessing this page inside your VM: Additional Viz.</span></li>
-                <li>Take a screenshot of the visualization.</li>
+              <pre><code></code></pre>
+              <br>
+        <img src="https://github.com/user-attachments/assets/e12f68e1-b834-4a6f-b9ba-cfcce1face63" width="700">
             </ul>
         </li>
         <li><strong>Any visualization that illustrates the count of different users:</strong>
