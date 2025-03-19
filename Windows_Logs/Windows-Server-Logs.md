@@ -3,7 +3,7 @@
 [windows_server_logs.csv](https://github.com/user-attachments/files/19326877/windows_server_logs.zip)
 
 
-In this first part, you will upload and analyze Windows security logs that represent "regular" activity for VSI into your Splunk environment. To do so, ensure that you are logged in and complete the following steps:
+In this first part, you will upload and analyze Windows security logs that represent "regular" activity for VSI into Splunk environment. To do so, ensure that you are logged in and complete the following steps:
 <ol>
         <li>Select the “Add Data” option within Splunk.</li>
         <li>Since you will upload the provided log file, select the “Upload” option under “Or get data in with the following methods.”
@@ -65,7 +65,7 @@ In this first part, you will upload and analyze Windows security logs that repre
 # Part 2: Create Reports, Alerts, and Dashboards for the Windows Logs
 In this part, you will create reports, alerts, and dashboards to monitor for suspicious activity against VSI’s Windows server. Design the following deliverables to protect VSI from potential attacks by JobeCorp:
 <h2>1. Reports</h2>
-Design the following reports to assist VSI in quickly identifying specific information. Be sure to grab screenshots of each report:</p>
+Design the following reports to assist VSI in quickly identifying specific information:</p>
     <ol>
         <li><strong>A report with a table of signatures and associated signature IDs:</strong>
             <ul>
