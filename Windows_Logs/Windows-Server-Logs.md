@@ -160,7 +160,7 @@ Design the following reports to assist VSI in quickly identifying specific infor
     </ol>
 
 <h2>3. Visualizations and Dashboards</h2>
-    <p>Design the following visualizations, and add them to a dashboard called “Windows Server Monitoring” (be creative with your visualizations, and make sure to grab screenshots of each):</p>
+    <p>Design the following visualizations, and add them to a dashboard called “Windows Server Monitoring”:</p>
     <ol>
         <li><strong>A line chart that displays the different “signature” field values over time:</strong>
             <ul>
