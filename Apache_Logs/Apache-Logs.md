@@ -209,7 +209,9 @@
 <pre><code>source="apache_logs.txt" | timechart span=1h count by useragent</code></pre>
 <img src="https://github.com/user-attachments/assets/150f83bd-5b09-424e-b63a-0f5e4387c5ef" width="700">
 
-<li>A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization.</li>
+<li>A single-value visualization of your choice that analyzes any single data point:</li>
+<pre><code>source="apache_logs.txt" |search status=404 | stats count as "404 Count"</code></pre>
+<img src="https://github.com/user-attachments/assets/cdc31830-28fc-4ab4-8a06-85e91bc22e4b" width="700">
 
  </ul>
                 </li>
@@ -217,9 +219,8 @@
         </li>
         <li>On your dashboard, add the ability to change the time range for all visualizations.
             <ul>
-                <li>Be sure to title all of your panels appropriately.</li>
-                <li>Organize the panels on your dashboard as you see fit.</li>
-            </ul>
+        <img src="https://github.com/user-attachments/assets/013d5336-52e3-4cb1-9c36-6dd84535e1f2" width="900">
+    </ul>
         </li>
     </ol>
 </body>
