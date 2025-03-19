@@ -104,6 +104,9 @@ Design the following reports to assist VSI in quickly identifying specific infor
     <p>Design the following alerts to notify VSI of suspicious activity, and keep this information on hand as you will include it in your presentation:</p>
     <ol>
         <li><strong>Determine a baseline and threshold for the hourly level of failed Windows activity:</strong>
+        <pre><code>source="windows_server_logs.csv" host="Windows_Server_Logs" status="failure" | timechart span=1h count as failed_attempts</code></pre>
+        <br>
+        <img src="https://github.com/user-attachments/assets/6bb3a333-cf09-49fb-a859-c770fa3ce18b" width="700">        
             <ul>
                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
                 <li>The alert should trigger an email to <code>SOC@VSI-company.com</code>.</li>
