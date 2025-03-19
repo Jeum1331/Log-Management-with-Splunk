@@ -36,7 +36,9 @@
         </li>
         <li>On the “Review” page, verify that you’ve chosen the correct settings, as the following image shows:
             <ul>
-                <li>Select “Submit” to proceed with uploading your data into Splunk.</li>
+                
+![image](https://github.com/user-attachments/assets/ba09e75b-0175-445d-85e6-b8cd0a8e4d8f)
+    <li>Select “Submit” to proceed with uploading your data into Splunk.</li>
             </ul>
         </li>
         <li>Once the file has successfully uploaded, a message that says “File has been uploaded successfully” will appear on the screen.</li>
