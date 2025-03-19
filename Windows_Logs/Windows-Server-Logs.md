@@ -45,6 +45,9 @@ In this first part, you will upload and analyze Windows security logs that repre
         <th>Value</th>
     </tr>
     <tr>
+        <td><code>User</code></td>
+        <td><img src="" alt="User" width="700"</td>    
+    <tr>
         <td><code>Status</code></td>
         <td><img src="https://github.com/user-attachments/assets/09848a41-aecc-4031-8014-b4ba8073ac65" alt="status image" width="700"></td>
     </tr>
