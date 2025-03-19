@@ -21,8 +21,15 @@ In this part, you will upload Apache attack logs into your Splunk environment.
        <li>Review the updated results, and answer the following questions in the review document:
             <img src="https://github.com/user-attachments/assets/2a13e511-fe1a-48d4-951b-d9c696a9eff8" width="700">
             <ul>
-                <li>Did you detect any suspicious changes in HTTP methods? If so, which one?</li>
-                <li>What is that method used for?</li>
+                <li>Did you detect any suspicious changes in HTTP methods?</li>
+    <p>Yes, there is a spike in the POST method reaching a peak of 1296 requests in the time span.</p>
+
+ <li>What is that method used for?</li>
+    <p>In cybersecurity, attackers can exploit the POST method in various ways to manipulate or exploit web applications. Some common attack vectors include:</p>
+    <ul>
+        <li>SQL Injection (SQLi)</li>
+        <li>Cross-Site Scripting (XSS)</li>
+        <li>API Abuse & Enumeration</li>
             </ul>
         </li>
     </ol>
