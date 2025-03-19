@@ -61,11 +61,11 @@
     </tr>
     <tr>
      <td><code>status</code></td>
-     <td><img src="" width="700"></td>
+     <td><img src="https://github.com/user-attachments/assets/fc313bf7-b56c-4488-9b9a-e91042326907" width="700"></td>
     </tr>  
     <tr>
     <td><code>clientip</code></td>
-    <td><img src=" " width="700"></td>
+    <td><img src="https://github.com/user-attachments/assets/916c9852-8b2e-4c35-8f0e-3202ae6e1ec1" width="700"></td>
     </tr>
     <tr>
     <td><code>useragent</code></td>
