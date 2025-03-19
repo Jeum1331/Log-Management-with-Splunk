@@ -113,7 +113,12 @@ Design the following reports to assist VSI in quickly identifying specific infor
 <ul>
                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
                 <li>The alert should trigger an email to <code>SOC@VSI-company.com</code>.</li>
-            </ul>
+<tr>
+                <td><img src="https://github.com/user-attachments/assets/58465e43-aae6-4c62-867c-1c062ec76bf4" width="350"></td>
+                <td><img src="https://github.com/user-attachments/assets/b771d3cb-4967-4419-bfaa-825412e418a8" width="350"></td>
+            </tr>
+
+</ul>
         </li>
         <li><strong>Determine a baseline and threshold for the hourly count of the signature “an account was successfully logged on.”</strong>
             <ul>
