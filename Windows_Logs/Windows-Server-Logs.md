@@ -73,7 +73,7 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li><span class="hint">Hint: Research how to remove the duplicate values in your SPL search.</span></li>
                 <li>Take a screenshot of the report.</li>
             </ul>
-<code>source="windows_server_logs.csv" host="Windows_Server_Logs" sourcetype="csv" | dedup signature_id | table signature_id, signature | sort signature_id</code>
+<code>source="windows_server_logs.csv" host="Windows_Server_Logs" | dedup signature_id | table signature_id, signature | sort signature_id</code>
 <img src="https://github.com/user-attachments/assets/ea444322-1203-41a1-a7df-038710467952" width="700">
                 
 </li>
