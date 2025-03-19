@@ -141,6 +141,9 @@ Design the following reports to assist VSI in quickly identifying specific infor
 </ul>
         </li>
         <li><strong>Determine a baseline and threshold for the hourly count of the signature “a user account was deleted.”</strong>
+        <pre><code>host="Windows_Server_Logs" source="windows_server_logs.csv" signature_id="4726" | timechart span=1h count as deleted_accouts</code></pre>
+        <br>
+        <img src="https://github.com/user-attachments/assets/6790c574-951c-4de3-b506-fab5574b0d87" width="700">
             <ul>
                 <li>Design the alert based on the corresponding signature ID, as the signature name sometimes changes when the Windows system updates.</li>
                 <li>Create an alert that's triggered when the threshold has been reached.</li>
