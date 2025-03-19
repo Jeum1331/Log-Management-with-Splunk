@@ -61,8 +61,12 @@ In this part, you will upload Apache attack logs into your Splunk environment.
         <li>Change the source from source=apache_logs.txt to source="apache_attack_logs.txt".</li>
         <li>Select “Save.”</li>
         <li>Review the updated results, and answer the following question in the review document:
+            <img src="https://github.com/user-attachments/assets/e2657e75-12d9-4336-968c-0315208a642f" width="700">
             <ul>
                 <li>Did you detect any suspicious changes in HTTP response codes?</li>
+                <p>Yes, I detected changes in HTTP code:
+-200(OK): the day of the attack it decreased the count
+-404(not found): the day of the attack it increased</p>
             </ul>
         </li>
     </ol>
