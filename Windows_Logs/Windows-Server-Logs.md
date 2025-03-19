@@ -170,8 +170,10 @@ Design the following reports to assist VSI in quickly identifying specific infor
         </li>
         <li><strong>A line chart that displays the different “user” field values over time:</strong>
             <ul>
-                <li>Take a screenshot of the chart.</li>
-            </ul>
+<pre><code>host="Windows_Server_Logs" source="windows_server_logs.csv" | timechart span=1hr count by user</code></pre>
+<br>
+<img src="https://github.com/user-attachments/assets/3f08afda-a3bf-4b70-8df1-248e749426d2" width="700">                    
+</ul>
         </li>
         <li><strong>Any visualization that illustrates the count of different signatures:</strong>
             <ul>
