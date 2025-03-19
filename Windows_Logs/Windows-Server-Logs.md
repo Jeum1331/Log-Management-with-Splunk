@@ -184,8 +184,13 @@ Design the following reports to assist VSI in quickly identifying specific infor
         </li>
         <li><strong>Any visualization that illustrates the count of different users:</strong>
             <ul>
-                <li>Take a screenshot of the visualization.</li>
-            </ul>
+              <table border="1">
+         <tr>
+                <td><img src="https://github.com/user-attachments/assets/a42bffd3-f4a5-46bb-b685-a5578e2f152e" width="650"></td>
+                <td><img src="https://github.com/user-attachments/assets/9cf029c6-99ef-4bf3-9656-c157f51ab13f" width="650"></td>
+        </tr>
+ </table>
+ </ul>
      
 
 <h2>4. Dashboard Setup</h2>
