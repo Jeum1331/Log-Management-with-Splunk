@@ -198,6 +198,6 @@ Design the following reports to assist VSI in quickly identifying specific infor
 <h2>4. Dashboard Setup</h2>
     <p>On your dashboard, add the ability to change the time range for all visualizations:</p>
     <ul>
-        <li>Be sure to title all of your panels appropriately.</li>
-        <li>Organize the panels on your dashboard as you see fit.</li>
-    </ul>
+![image](https://github.com/user-attachments/assets/1d6e83f6-6eb2-40dd-bbbf-406f5ada18cd)
+
+</ul>
