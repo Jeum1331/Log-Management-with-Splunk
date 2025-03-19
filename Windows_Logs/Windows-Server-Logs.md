@@ -34,16 +34,22 @@ In this first part, you will upload and analyze Windows security logs that repre
         <li>Select “Start Searching.”</li>
         <li><span class="warning">⚠️ Important:</span> After the data populates on the search, select “All Time” for the time range.</li>
         <li>Briefly analyze the logs and the available fields, specifically examining the following important fields:
-            <ul>
-                <li><code>signature_id</code></li>
+        
+  <li><code>signature_id</code></li>
                 <li><code>signature</code></li>
                 <li><code>user</code></li>
                 <li><code>status</code></li>
-                <li><code>severity</code></li>  ![image](https://github.com/user-attachments/assets/c196c877-3ae4-4554-9df1-cad20d75eb68)
+               <table border="1">
+    <tr>
+        <th>Field</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td><code>severity</code></td>
+        <td><img src="https://github.com/user-attachments/assets/c196c877-3ae4-4554-9df1-cad20d75eb68" alt="severity image"></td>
+    </tr>
+</table>
 
-            </ul>
-        </li>
-    </ol>
 
 # Part 2: Create Reports, Alerts, and Dashboards for the Windows Logs
 In this part, you will create reports, alerts, and dashboards to monitor for suspicious activity against VSI’s Windows server. Design the following deliverables to protect VSI from potential attacks by JobeCorp:
