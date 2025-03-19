@@ -81,11 +81,16 @@ In this part, you will upload Apache attack logs into your Splunk environment.
         <li>Select “Open in Search.”</li>
         <li>Change the source from source=apache_logs.txt to source="apache_attack_logs.txt".</li>
         <li>Review the updated results, and answer the following questions in the review document:
+            <img src="https://github.com/user-attachments/assets/98818e58-d565-4d6c-a8df-9056119983af" width="700">
             <ul>
                 <li>Did you detect a suspicious volume of international activity?</li>
+               <p>Yes, I was able to detect suspicious volume.</p>
                 <li>If so, what was the count of events in the hour(s) it occurred?</li>
+                <p>It happened at 15:00 with a count of 864.</p>
                 <li>Would your alert be triggered for this activity?</li>
+                <p>Yes it would have since the threshold was set to 70.</p>
                 <li>After reviewing, would you change the threshold you previously selected?</li>
+                <p>I would increase it a bit to avoid false positives.</p>
             </ul>
         </li>
     </ol>
