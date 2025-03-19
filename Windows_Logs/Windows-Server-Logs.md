@@ -43,7 +43,7 @@ In this first part, you will upload and analyze Windows security logs that repre
         <th>Value</th>
     </tr>
     <tr>
-        <td><code>Signature</code>code></td>
+        <td><code>Signature</code></td>
         <td><img src="https://github.com/user-attachments/assets/4dbb9078-87c5-49e5-90b1-fba75f6c0d7d" alt="Signature" width="700"></td>
     </tr>
     <tr>
