@@ -46,11 +46,6 @@
         <li>⚠️ Important: After the data populates on the search, select “All Time” for the time range.</li>
         <li>Briefly analyze the logs and the available fields, specifically examining the following important fields:
             <ul>
-                <li>method</li>
-                <li>referer_domain</li>
-                <li>status</li>
-                <li>clientip</li>
-                <li>useragent</li>
          <table border="1">
     <tr>
         <th>Field</th>
@@ -59,6 +54,23 @@
     <tr>
         <td><code>method</code></td>
         <td><img src="https://github.com/user-attachments/assets/43f13f60-1c84-4662-a525-3fd49db9ea75" width="700"></td>
+    </tr>
+    <tr>
+    <td><code>refere_domain</code></td>
+    <td><img src="" width="700"></td>
+    </tr>
+    <tr>
+     <td><code>status</code></td>
+     <td><img src="" width="700"></td>
+    </tr>  
+    <tr>
+    <td><code>clientip</code></td>
+    <td><img src=" " width="700"></td>
+    </tr>
+    <tr>
+    <td><code>useragent</code></td>
+    <td><img src=" " width="700"></td>
+    </tr>
    </table>
 </ul>
         </li>
