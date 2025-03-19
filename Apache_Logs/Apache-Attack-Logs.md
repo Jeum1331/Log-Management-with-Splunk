@@ -158,18 +158,26 @@ In this part, you will upload Apache attack logs into your Splunk environment.
         <p>Kharkiv and Kiev are both cities located in Ukraine.</p>
         <li>What is the count of that city?</li>
         <ul>
-            <li>Kiev has a count of 438.</li>
-            <li>Kharkiv has a count of 432.</li>
+            <li>Kiev has a count of 430.</li>
+            <li>Kharkiv has a count of 434.</li>
 </li>
         </ul>
     </ul>
 
   <h3>Dashboard Analysis for URI Data</h3>
     <p>Analyze your dashboard panel of the URI data, and answer the following questions in the review document:</p>
+    <img src="https://github.com/user-attachments/assets/e945e178-758a-44f8-a205-b62b7d4e52c2"width="700">
     <ul>
         <li>Does anything stand out as suspicious?</li>
+        <p></p>
         <li>What URI is hit the most?</li>
+        <p>The URI hit the most was the VSI_Account_logon.php.</p>
         <li>Based on the URI being accessed, what could the attacker potentially be doing?</li>
+        <ul>
+            <li>Brute-force login credentials: Repeatedly trying username and password combinations to gain unauthorized access to user accounts.</li>
+            <li>Session hijacking or credential stuffing: Using stolen credentials from a data breach or compromised session tokens to log in.</li>
+            <li>Exploiting vulnerabilities: Testing for vulnerabilities such as SQL injection, cross-site scripting (XSS), or other flaws in the login page to bypass authentication or gain access to sensitive data.</li>
+        </ul>
     </ul>
 
 </body>
