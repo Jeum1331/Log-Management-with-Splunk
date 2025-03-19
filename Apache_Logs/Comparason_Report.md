@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Comparison Report: Apache Logs vs. Apache Attack Logs</title>
 </head>
 <body>
     <h1>Comparison Report: Apache Logs vs. Apache Attack Logs</h1>
