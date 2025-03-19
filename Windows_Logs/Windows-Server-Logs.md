@@ -79,6 +79,9 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li>This will allow VSI to quickly understand the severity levels of the Windows logs being viewed.</li>
                 <li>Take a screenshot of the report.</li>
             </ul>
+
+![image](https://github.com/user-attachments/assets/a054c1aa-2927-40fb-ba7b-ccaf14a4cf5d)
+
         </li>
         <li><strong>A report that provides a comparison between the success and failure of Windows activities:</strong>
             <ul>
