@@ -57,7 +57,7 @@
     </tr>
     <tr>
     <td><code>referer_domain</code></td>
-    <td><img src="https://github.com/user-attachments/assets/99b21adf-65f6-4983-9709-ea9cb40eb6a1" width="700"></td>
+    <td><img src="(https://github.com/user-attachments/assets/5efc72c6-b13a-4dba-a50f-f0d05f0dd0c9" width="700"></td>
     </tr>
     <tr>
      <td><code>status</code></td>
@@ -65,7 +65,7 @@
     </tr>  
     <tr>
     <td><code>clientip</code></td>
-    <td><img src="https://github.com/user-attachments/assets/916c9852-8b2e-4c35-8f0e-3202ae6e1ec1" width="700"></td>
+    <td><img src="https://github.com/user-attachments/assets/6c545a46-722f-4738-b455-418fc37c32dd" width="700"></td>
     </tr>
     <tr>
     <td><code>useragent</code></td>
