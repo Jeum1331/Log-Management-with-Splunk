@@ -115,8 +115,8 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li>The alert should trigger an email to <code>SOC@VSI-company.com</code>.</li>
  <table border="1">
          <tr>
-                <td><img src="https://github.com/user-attachments/assets/58465e43-aae6-4c62-867c-1c062ec76bf4" width="600"></td>
-                <td><img src="https://github.com/user-attachments/assets/b771d3cb-4967-4419-bfaa-825412e418a8" width="550"></td>
+                <td><img src="https://github.com/user-attachments/assets/58465e43-aae6-4c62-867c-1c062ec76bf4" width="650"></td>
+                <td><img src="https://github.com/user-attachments/assets/b771d3cb-4967-4419-bfaa-825412e418a8" width="600"></td>
             </tr>
  </table>
 
@@ -133,8 +133,8 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li>Design the alert based on the corresponding signature ID, as the signature name sometimes changes when the Windows system updates.</li>
          <table border="1">
          <tr>
-         <td><img src="https://github.com/user-attachments/assets/b75ffe46-de80-49ab-ba42-9d43f43a1d11" width="600"></td>
-         <td><img src="https://github.com/user-attachments/assets/68338ff0-a168-4ed2-a010-ee6d973cb483" width="550"></td>
+         <td><img src="https://github.com/user-attachments/assets/b75ffe46-de80-49ab-ba42-9d43f43a1d11" width="650"></td>
+         <td><img src="https://github.com/user-attachments/assets/68338ff0-a168-4ed2-a010-ee6d973cb483" width="600"></td>
 </tr>
  </table>
 
