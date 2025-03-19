@@ -163,7 +163,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><b>Visualizations and Dashboards:</b> Design the following visualizations, and add them to a dashboard called “Apache Web Server Monitoring” (be creative with your visualizations, and make sure to grab screenshots of each):
+                <li><b>Visualizations and Dashboards:</b> Design the following visualizations, and add them to a dashboard called “Apache Web Server Monitoring”:
                     <ul>
                         <li>A line chart that displays the different HTTP “methods” field values over time.
                             <ul>
