@@ -88,12 +88,41 @@
                         <li>A report that shows a table of the different HTTP methods (GET, POST, HEAD, etc.).
                             <ul>
                                 <li>This will provide insight into the type of HTTP activity being requested against VSI’s web server.</li>
-                            </ul>
+             <pre><code>source="</code>source="apache_logs.txt"  method="GET"</pre>
+             <br>
+<table border="1">
+    <tr>
+        <td>GET</td>
+        <td><img src="https://github.com/user-attachments/assets/7f7aff24-a43a-4b9a-8f4a-25b577a0d18a" width="700"></td>
+    </tr>
+       </table>   
+       <pre><code>source="apache_logs.txt"  method="POST"</code></pre>
+      <br>                         
+    <table border="1">
+<tr>
+        <td>POST</td>
+        <td><img src="https://github.com/user-attachments/assets/46d29f23-fa08-4d75-834a-269b0ffc41b1" width="700"></td> 
+    </tr>
+     </table> 
+       <pre><code>source="apache_logs.txt"  method="HEAD"</code></pre>
+    <br>                         
+  <table border="1">    
+<tr>
+        <td>HEAD</td>
+        <td><img src="https://github.com/user-attachments/assets/1f9ff09f-739b-49a5-b486-3c086c210ef7" width="700"></td>
+    </tr>
+             </table>         
+</ul>
                         </li>
                         <li>A report that shows the top 10 domains that refer to VSI’s website.
                             <ul>
                                 <li>This will assist VSI with identifying suspicious referrers.</li>
-                            </ul>
+                                <pre><code>source="apache_logs.txt" referer=* | stats count by referer | sort - count | head 10</code></pre>
+                                <br>
+    
+![image](https://github.com/user-attachments/assets/18e74f20-c967-44e2-977d-e526e4605d96)
+
+ </ul>
                         </li>
                         <li>A report that shows the count of each HTTP response code.
                             <ul>
