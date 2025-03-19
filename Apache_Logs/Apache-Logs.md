@@ -174,10 +174,17 @@
     </table>
                 <li><b>Visualizations and Dashboards:</b> Design the following visualizations, and add them to a dashboard called “Apache Web Server Monitoring”:
                     <ul>
-                        <li>A line chart that displays the different HTTP “methods” field values over time.
-                            <ul>
-                                <li>Hint: Add the following after your search: timechart span=1h count by method.</li>
-                            </ul>
+                        <li>A line chart that displays the different HTTP “methods” field values over time.</li>
+    <pre><code>source="apache_logs.txt" | timechart span=1h count by method</code></pre>                    
+ <br>                 
+ <table border="1">
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/4ff92095-1c84-4b55-9a24-0d6e4621b790" width="600"></td>
+        <td><img src="https://github.com/user-attachments/assets/8bf1129a-9b8e-4a23-9d06-22d0a0922384" width="600"></td>
+    </tr>
+         </table>
+
+ </ul>
                         </li>
                         <li>A geographical map showing the location based on the “clientip” field.</li>
                         <li>Any visualization of your choice that displays the number of different URIs.
