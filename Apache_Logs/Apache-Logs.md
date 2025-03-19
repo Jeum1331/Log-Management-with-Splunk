@@ -168,8 +168,8 @@
                 </li>
     <table border="1">
     <tr>
-        <td><img src="" width="600"></td>
-        <td><img src="" width="650"></td>
+        <td><img src="https://github.com/user-attachments/assets/dabc302e-d82d-4bed-81b0-d7ce63e10f1a" width="600"></td>
+        <td><img src="https://github.com/user-attachments/assets/cfe067f4-7b34-47d7-bda5-467ff52579a5" width="650"></td>
     </tr>
     </table>
                 <li><b>Visualizations and Dashboards:</b> Design the following visualizations, and add them to a dashboard called “Apache Web Server Monitoring”:
