@@ -37,8 +37,6 @@ In this first part, you will upload and analyze Windows security logs that repre
         
   <li><code>signature_id</code></li>
                 <li><code>signature</code></li>
-                <li><code>user</code></li>
-                <li><code>status</code></li>
                <table border="1">
     <tr>
         <th>Field</th>
