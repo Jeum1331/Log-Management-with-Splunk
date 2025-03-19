@@ -150,7 +150,7 @@ In this part, you will upload Apache attack logs into your Splunk environment.
 
   <h3>Dashboard Analysis for Cluster Map</h3>
     <p>Analyze your new cluster map results, and answer the following questions in the review document:</p>
-    <img src="" width="700">
+    <img src="https://github.com/user-attachments/assets/41a7afcd-9e0d-47d7-ab48-bf6bb3df7b53" width="700">
     <ul>
         <li>Does anything stand out as suspicious?</li>
         <p>Yes, before the Attack the biggest Cluster came from Amsterdam.</p>
@@ -169,7 +169,7 @@ In this part, you will upload Apache attack logs into your Splunk environment.
     <img src="https://github.com/user-attachments/assets/e945e178-758a-44f8-a205-b62b7d4e52c2"width="700">
     <ul>
         <li>Does anything stand out as suspicious?</li>
-        <p></p>
+        <p>Yes, The URI count changes on the day of the attack.</p>
         <li>What URI is hit the most?</li>
         <p>The URI hit the most was the VSI_Account_logon.php.</p>
         <li>Based on the URI being accessed, what could the attacker potentially be doing?</li>
