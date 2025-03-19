@@ -140,10 +140,21 @@
                 <li><b>Alerts:</b> Design the following alerts:
                     <ul>
                         <li>Determine a baseline and threshold for hourly activity from any country besides the United States.
-                            <ul>
+<pre><code>source="apache_logs.txt" referer=* | iplocation clientip| where Country!="United States" | bin _time span=1h | stats count by _time, Country</code></pre>
+<br>
+<img src="https://github.com/user-attachments/assets/f2211a9e-5006-45ee-a32a-abcbc0011465" width="700">
+
+<ul>
                                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
                                 <li>The alert should trigger an email to SOC@VSI-company.com.</li>
-                            </ul>
+    
+<table border="1">
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/66f9d6c3-8cce-4c1c-802f-323d4a6d5c4e" with="600"></td>
+        <td><img src="https://github.com/user-attachments/assets/d1ba950c-10b6-441d-a0b4-adea830336d2" width="650"></td>
+    </tr>
+</table>
+ </ul>
                         </li>
                         <li>Determine an appropriate baseline and threshold for the hourly count of the HTTP POST method.
                             <ul>
