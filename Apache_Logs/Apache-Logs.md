@@ -51,7 +51,16 @@
                 <li>status</li>
                 <li>clientip</li>
                 <li>useragent</li>
-            </ul>
+         <table border="1">
+    <tr>
+        <th>Field</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td><code>method</code></td>
+        <td><img src="https://github.com/user-attachments/assets/43f13f60-1c84-4662-a525-3fd49db9ea75" width="700"></td>
+   </table>
+</ul>
         </li>
     </ol>
 
