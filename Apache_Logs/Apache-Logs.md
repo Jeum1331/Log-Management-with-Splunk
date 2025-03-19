@@ -109,7 +109,7 @@
     <br>
                                 
  <pre><code>source="apache_logs.txt"  method="HEAD"</code></pre>
-    <br>                         
+ <br>                         
   <table border="1">    
 <tr>
         <td>HEAD</td>
