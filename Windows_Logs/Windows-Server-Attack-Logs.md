@@ -12,7 +12,7 @@
 
   <h1>Part 4: Analyze Windows Attack Logs</h1>
 
-  <p>In this part, you will review the reports, alerts, and dashboards that you created on Day 1 and analyze the results. To do so, complete the following steps:</p>
+  <p>In this part, you will review the reports, alerts, and dashboards that you created for [windows_server_logs.csv](https://github.com/user-attachments/files/19326877/windows_server_logs.zip) and analyze the results. To do so, complete the following steps:</p>
     <h2>Report Analysis for Severity</h2>
     <ol>
         <li>Access the “Reports” tab, and select “Yours” to view the reports that you created on your Windows Server Logs.</li>
