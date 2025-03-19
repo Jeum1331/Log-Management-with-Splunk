@@ -47,7 +47,7 @@ In this part, you will upload Apache attack logs into your Splunk environment.
         <img src="https://github.com/user-attachments/assets/0bd9611c-09d3-485a-90b6-01c71b0da90a" width="700">
             <ul>
                 <li>Did you detect any suspicious changes in referrer domains?</li>
-                <p>Yes, the count of the referring domains significantly decreased in the day of the attacks</p>
+                <p>Yes, the count of the referring domains significantly decreased in the day of the attack.</p>
             </ul>
         </li>
     </ol>
@@ -64,9 +64,10 @@ In this part, you will upload Apache attack logs into your Splunk environment.
             <img src="https://github.com/user-attachments/assets/e2657e75-12d9-4336-968c-0315208a642f" width="700">
             <ul>
                 <li>Did you detect any suspicious changes in HTTP response codes?</li>
-                <p>Yes, I detected changes in HTTP code:
--200(OK): the day of the attack it decreased the count
--404(not found): the day of the attack it increased</p>
+                <p>Yes, I detected changes in HTTP code:</p>
+                  <ul>
+                   <li>-200(OK): The day of the attack it decreased the count.</li>
+                   <li>-404(not found): the day of the attack it increased</li>
             </ul>
         </li>
     </ol>
