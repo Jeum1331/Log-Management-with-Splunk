@@ -188,13 +188,22 @@
 
   </li>
                         <li>A geographical map showing the location based on the “clientip” field.</li>
-                        <li>Any visualization of your choice that displays the number of different URIs.
-                            <ul>
-                                <li>Hint: You can add brand-new custom visualizations by accessing this page inside your VM: Additional Viz.</li>
-                            </ul>
-                        </li>
+     <pre><code>source="apache_logs.txt" | iplocation clientip | geostats count by clientip</code></pre>              
+<img src="https://github.com/user-attachments/assets/25247b40-1558-4c68-87b8-57e094af1f83" width="700">
+
+<li>Any visualization of your choice that displays the number of different URIs.
+      <pre><code>source="apache_logs.txt" | stats count by uri | sort - count</code></pre> 
+           <br>                 
+ <table border="1">
+    <tr>
+        <td><img src="https://github.com/user-attachments/assets/d73ce288-e2cf-4975-8df2-0451465d30ee" width="600"></td>
+        <td><img src="https://github.com/user-attachments/assets/15d16dc7-7cc6-407e-affb-34b4f2e0bdaa" width="600"></td>
+    </tr>
+ </table>
+
+</li>
                         <li>Any visualization of your choice that displays the count of the top 10 countries that appear in the log.</li>
-                        <li>Any visualization that illustrates the count of different user agents.</li>
+                <li>Any visualization that illustrates the count of different user agents.</li>
                         <li>A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization from http://localhost:8000/en-US/manager/search/appsremote?content=visualizations&type=app).</li>
                     </ul>
                 </li>
