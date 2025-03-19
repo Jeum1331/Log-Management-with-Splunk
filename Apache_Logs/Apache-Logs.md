@@ -209,8 +209,9 @@
 <pre><code>source="apache_logs.txt" | timechart span=1h count by useragent</code></pre>
 <img src="https://github.com/user-attachments/assets/150f83bd-5b09-424e-b63a-0f5e4387c5ef" width="700">
 
-<li>A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization from http://localhost:8000/en-US/manager/search/appsremote?content=visualizations&type=app).</li>
-                    </ul>
+<li>A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization.</li>
+
+ </ul>
                 </li>
             </ul>
         </li>
