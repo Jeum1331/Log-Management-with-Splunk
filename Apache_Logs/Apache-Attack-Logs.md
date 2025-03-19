@@ -136,11 +136,16 @@ In this part, you will upload Apache attack logs into your Splunk environment.
 
    <h3>Dashboard Analysis for Time Chart of HTTP Methods</h3>
     <p>Analyze your new dashboard results, and answer the following questions in the review document:</p>
+    <img src="https://github.com/user-attachments/assets/cbdc4bc2-31fe-44f4-80c6-74fd71f04d9e" width="700">
     <ul>
         <li>Does anything stand out as suspicious?</li>
+        <p>Yes, there was a fluctuation visible in the graph.</p>
         <li>Which method seems to be used in the attack?</li>
+        <p>The <code>POST</code> method</p>
         <li>At what times did the attack start and stop?</li>
+        <p>It seems like the attack started around 19:00 and stopped at 21:00.</p>
         <li>What is the peak count of the top method during the attack?</li>
+        <p>It was 1296.</p>
     </ul>
 
   <h3>Dashboard Analysis for Cluster Map</h3>
