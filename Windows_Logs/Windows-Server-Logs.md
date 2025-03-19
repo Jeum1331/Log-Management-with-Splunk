@@ -106,8 +106,9 @@ Design the following reports to assist VSI in quickly identifying specific infor
         <li><strong>Determine a baseline and threshold for the hourly level of failed Windows activity:</strong>
         <pre><code>source="windows_server_logs.csv" host="Windows_Server_Logs" status="failure" | timechart span=1h count as failed_attempts</code></pre>
         <br>
-        <img src="https://github.com/user-attachments/assets/6bb3a333-cf09-49fb-a859-c770fa3ce18b" width="700">        
-        After determining the baseline and threshold this is the query for the alert:  
+        <img src="https://github.com/user-attachments/assets/6bb3a333-cf09-49fb-a859-c770fa3ce18b" width="700">
+        <br>
+        After determining the baseline and threshold this is the query used for the alert:  
  <pre><code>source="windows_server_logs.csv" host="Windows_Server_Logs" status="failure" | timechart span=1h count as failed_attempts | where failed_attempts > 12</code></pre>
 <ul>
                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
