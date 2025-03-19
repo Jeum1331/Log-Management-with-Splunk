@@ -150,14 +150,18 @@ In this part, you will upload Apache attack logs into your Splunk environment.
 
   <h3>Dashboard Analysis for Cluster Map</h3>
     <p>Analyze your new cluster map results, and answer the following questions in the review document:</p>
+    <img src="" width="700">
     <ul>
         <li>Does anything stand out as suspicious?</li>
-        <li>Which new location (city, country) on the map has a high volume of activity?
-            <ul>
-                <li>Hint: Zoom in on the map.</li>
-            </ul>
-        </li>
+        <p>Yes, before the Attack the biggest Cluster came from Amsterdam.</p>
+        <li>Which new location (city, country) on the map has a high volume of activity?</li>
+        <p>Kharkiv and Kiev are both cities located in Ukraine.</p>
         <li>What is the count of that city?</li>
+        <ul>
+            <li>Kiev has a count of 438.</li>
+            <li>Kharkiv has a count of 432.</li>
+</li>
+        </ul>
     </ul>
 
   <h3>Dashboard Analysis for URI Data</h3>
