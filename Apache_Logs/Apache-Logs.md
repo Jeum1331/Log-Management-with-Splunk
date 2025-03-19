@@ -202,7 +202,10 @@
 
 </li>
                         <li>Any visualization of your choice that displays the count of the top 10 countries that appear in the log.</li>
-                <li>Any visualization that illustrates the count of different user agents.</li>
+    <pre><code>source="apache_logs.txt" | iplocation clientip | search Country!="United States"|top Country</code></pre>
+       <img src="https://github.com/user-attachments/assets/08503d97-9118-41f0-b89c-5ffc6c05f124" width="700">
+
+<li>Any visualization that illustrates the count of different user agents.</li>
                         <li>A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization from http://localhost:8000/en-US/manager/search/appsremote?content=visualizations&type=app).</li>
                     </ul>
                 </li>
