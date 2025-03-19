@@ -46,7 +46,7 @@ In this first part, you will upload and analyze Windows security logs that repre
     </tr>
     <tr>
         <td><code>severity</code></td>
-        <td><img src="https://github.com/user-attachments/assets/c196c877-3ae4-4554-9df1-cad20d75eb68" alt="severity image" width="500"></td>
+        <td><img src="https://github.com/user-attachments/assets/c196c877-3ae4-4554-9df1-cad20d75eb68" alt="severity image" width="700"></td>
     </tr>
 </table>
 
