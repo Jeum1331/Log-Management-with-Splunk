@@ -185,17 +185,7 @@ Design the following reports to assist VSI in quickly identifying specific infor
             <ul>
                 <li>Take a screenshot of the visualization.</li>
             </ul>
-        </li>
-        <li><strong>Any single-value visualization of your choice that analyzes any single data point:</strong>
-            <ul>
-                <li><span class="hint">Hint: You can use a radial gauge, marker gauge, or a custom visualization from 
-                        
-[Click here to access the app](http://localhost:8000/en-US/manager/search/appsremote?content=visualizations&type=app)
-.</span></li>
-                <li>Take a screenshot of the visualization.</li>
-            </ul>
-        </li>
-    </ol>
+     
 
 <h2>4. Dashboard Setup</h2>
     <p>On your dashboard, add the ability to change the time range for all visualizations:</p>
