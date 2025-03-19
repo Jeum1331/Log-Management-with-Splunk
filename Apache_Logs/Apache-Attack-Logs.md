@@ -44,8 +44,10 @@ In this part, you will upload Apache attack logs into your Splunk environment.
         <li>Change the source from source="apache_logs.txt" to source="apache_attack_logs.txt".</li>
         <li>Select “Save.”</li>
         <li>Review the updated results, and answer the following question in the review document:
+        <img src="https://github.com/user-attachments/assets/0bd9611c-09d3-485a-90b6-01c71b0da90a" width="700">
             <ul>
                 <li>Did you detect any suspicious changes in referrer domains?</li>
+                <p>Yes, the count of the referring domains significantly decreased in the day of the attacks</p>
             </ul>
         </li>
     </ol>
