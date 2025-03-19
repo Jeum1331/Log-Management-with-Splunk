@@ -219,7 +219,8 @@
         </li>
         <li>On your dashboard, add the ability to change the time range for all visualizations.
             <ul>
-        <img src="https://github.com/user-attachments/assets/013d5336-52e3-4cb1-9c36-6dd84535e1f2" width="900">
+                <br>
+        <img src="https://github.com/user-attachments/assets/013d5336-52e3-4cb1-9c36-6dd84535e1f2" width="1000">
     </ul>
         </li>
     </ol>
