@@ -177,7 +177,7 @@ Design the following reports to assist VSI in quickly identifying specific infor
         </li>
         <li><strong>Any visualization that illustrates the count of different signatures:</strong>
             <ul>
-              <pre><code></code></pre>
+              <pre><code>host="Windows_Server_Logs" source="windows_server_logs.csv" | stats count by signature | sort -count</code></pre>
               <br>
         <img src="https://github.com/user-attachments/assets/e12f68e1-b834-4a6f-b9ba-cfcce1face63" width="700">
             </ul>
