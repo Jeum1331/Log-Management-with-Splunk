@@ -129,7 +129,11 @@
                         <li>A report that shows the count of each HTTP response code.
                             <ul>
                                 <li>This will provide insight into any suspicious levels of HTTP responses.</li>
-                            </ul>
+            <pre><code>source="apache_logs.txt" | stats count by status</code></pre>
+            <br>
+                <img src="https://github.com/user-attachments/assets/581e27b4-9c2a-46e2-8ce0-5216340e18bb" width="700">
+
+ </ul>
                         </li>
                     </ul>
                 </li>
