@@ -131,7 +131,11 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
                 <li>The alert should trigger an email to <code>SOC@VSI-company.com</code>.</li>
                 <li>Design the alert based on the corresponding signature ID, as the signature name sometimes changes when the Windows system updates.</li>
-            </ul>
+         <table border="1">
+         <tr>
+                <td><img src="https://github.com/user-attachments/assets/b75ffe46-de80-49ab-ba42-9d43f43a1d11" width="600"></td>
+
+</ul>
         </li>
         <li><strong>Determine a baseline and threshold for the hourly count of the signature “a user account was deleted.”</strong>
             <ul>
