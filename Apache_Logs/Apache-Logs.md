@@ -166,6 +166,12 @@
                         </li>
                     </ul>
                 </li>
+    <table border="1">
+    <tr>
+        <td><img src="" width="600"></td>
+        <td><img src="" width="650"></td>
+    </tr>
+    </table>
                 <li><b>Visualizations and Dashboards:</b> Design the following visualizations, and add them to a dashboard called “Apache Web Server Monitoring”:
                     <ul>
                         <li>A line chart that displays the different HTTP “methods” field values over time.
