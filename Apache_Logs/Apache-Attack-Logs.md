@@ -131,6 +131,7 @@ In this part, you will upload Apache attack logs into your Splunk environment.
         </li>
         <li>Save the whole dashboard.</li>
         <li>Change the time on the whole dashboard to “All Time.”</li>
+        <img src="https://github.com/user-attachments/assets/cced04ce-f92e-4968-badd-517f1b4aa101" width="700">
     </ol>
 
    <h3>Dashboard Analysis for Time Chart of HTTP Methods</h3>
