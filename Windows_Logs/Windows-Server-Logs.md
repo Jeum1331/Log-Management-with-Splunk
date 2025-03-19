@@ -74,7 +74,7 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li>Take a screenshot of the report.</li>
             </ul>
 <code>source="windows_server_logs.csv" host="Windows_Server_Logs" | dedup signature_id | table signature_id, signature | sort signature_id</code>
-<img src="https://github.com/user-attachments/assets/ea444322-1203-41a1-a7df-038710467952" width="700">
+<img src="https://github.com/user-attachments/assets/7d43017c-2412-47ab-8c9e-f72d92d41c05" width="700">
                 
 </li>
         <li><strong>A report that displays the severity levels, and the count and percentage of each:</strong>
