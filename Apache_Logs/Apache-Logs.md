@@ -206,7 +206,10 @@
        <img src="https://github.com/user-attachments/assets/08503d97-9118-41f0-b89c-5ffc6c05f124" width="700">
 
 <li>Any visualization that illustrates the count of different user agents.</li>
-                        <li>A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization from http://localhost:8000/en-US/manager/search/appsremote?content=visualizations&type=app).</li>
+<pre><code>source="apache_logs.txt" | timechart span=1h count by useragent</code></pre>
+<img src="https://github.com/user-attachments/assets/150f83bd-5b09-424e-b63a-0f5e4387c5ef" width="700">
+
+<li>A single-value visualization of your choice that analyzes any single data point: e.g., radial gauge, marker gauge, or a custom visualization from http://localhost:8000/en-US/manager/search/appsremote?content=visualizations&type=app).</li>
                     </ul>
                 </li>
             </ul>
