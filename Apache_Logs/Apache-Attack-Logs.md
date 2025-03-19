@@ -28,9 +28,9 @@ In this part, you will upload Apache attack logs into your Splunk environment.
  <p>The <code>POST</code> method is used in HTTP requests to send data to a server to create or update a resource. It is commonly used in web applications for submitting forms, uploading files, and sending data to an API.</p>
     <p>In cybersecurity, attackers can exploit the <code>POST</code> method in various ways to manipulate or exploit web applications. Some common attack vectors include:</p>
     <ul>
-        <li>SQL Injection (SQLi)</li>
-        <li>Cross-Site Scripting (XSS)</li>
-        <li>API Abuse & Enumeration</li>
+        <li>SQL Injection (SQLi): Attackers use the <code>POST</code> method to inject malicious SQL queries into an application’s database.</li>
+        <li>Cross-Site Scripting (XSS): Attackers use <code>POST</code> requests to inject malicious scripts into web applications if the server does not sanitize input</li>
+        <li>API Abuse & Enumeration: Attackers use automated tools to send repeated <code>POST</code> requests to APIs to guess credentials (credential stuffing), brute force login, or extract sensitive data.</li>
             </ul>
         </li>
     </ol>
