@@ -90,7 +90,11 @@ Design the following reports to assist VSI in quickly identifying specific infor
                 <li><span class="hint">Hint: Check the “status” field for this information.</span></li>
                 <li>Take a screenshot of the report.</li>
             </ul>
-        </li>
+        <pre><code>source="windows_server_logs.csv" host="Windows_Server_Logs" | top status</code></pre>
+        <br>
+<img src="https://github.com/user-attachments/assets/4b94a49a-7caa-4a5d-9de7-e44ed46be987" alt="tatus" width="700">
+
+ </li>
     </ol>
 
  <h2>2. Alerts</h2>
