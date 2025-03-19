@@ -33,14 +33,16 @@ In this first part, you will upload and analyze Windows security logs that repre
         <li>Once the file has successfully uploaded, a message saying “File has been uploaded successfully” will appear.</li>
         <li>Select “Start Searching.”</li>
         <li><span class="warning">⚠️ Important:</span> After the data populates on the search, select “All Time” for the time range.</li>
-        <li>Briefly analyze the logs and the available fields, specifically examining the following important fields:
+        <li>Briefly analyze the logs and the available fields, specifically examining the following important fields:</li>
         
-  <li><code>signature_id</code></li>
-                <li><code>signature</code></li>
-               <table border="1">
+ <table border="1">
     <tr>
         <th>Field</th>
         <th>Value</th>
+    </tr>
+    <tr>
+        <td><code>signature_id</code></td>
+        <td><img src="" alt="sigID" width="700"></td>
     </tr>
     <tr>
         <td><code>Signature</code></td>
