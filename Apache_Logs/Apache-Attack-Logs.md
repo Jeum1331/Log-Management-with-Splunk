@@ -18,8 +18,8 @@ In this part, you will upload Apache attack logs into your Splunk environment.
         <li>Take note of the percent and count of the various methods.</li>
         <li>Change the source from source="apache_logs.txt" to source="apache_attack_logs.txt".</li>
         <li>Select “Save.”</li>
-        <img src="https://github.com/user-attachments/assets/2a13e511-fe1a-48d4-951b-d9c696a9eff8" width="700">
- <li>Review the updated results, and answer the following questions in the review document:
+       <li>Review the updated results, and answer the following questions in the review document:
+            <img src="https://github.com/user-attachments/assets/2a13e511-fe1a-48d4-951b-d9c696a9eff8" width="700">
             <ul>
                 <li>Did you detect any suspicious changes in HTTP methods? If so, which one?</li>
                 <li>What is that method used for?</li>
