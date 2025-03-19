@@ -147,15 +147,14 @@
 <ul>
                                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
                                 <li>The alert should trigger an email to SOC@VSI-company.com.</li>
-    
+    </ul>
+                        </li>
 <table border="1">
     <tr>
         <td><img src="https://github.com/user-attachments/assets/66f9d6c3-8cce-4c1c-802f-323d4a6d5c4e" width="600"></td>
         <td><img src="https://github.com/user-attachments/assets/d1ba950c-10b6-441d-a0b4-adea830336d2" width="650"></td>
     </tr>
 </table>
- </ul>
-                        </li>
                         <li>Determine an appropriate baseline and threshold for the hourly count of the HTTP POST method.
                             <ul>
                                 <li>Create an alert that’s triggered when the threshold has been reached.</li>
