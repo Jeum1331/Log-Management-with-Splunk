@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Comparison Report: Windows Server Logs vs. Windows Attack Logs</title>
 </head>
 <body>
     <h1>Comparison Report: Windows Server Logs vs. Windows Attack Logs</h1>
