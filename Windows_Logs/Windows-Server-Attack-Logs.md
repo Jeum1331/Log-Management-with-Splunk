@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Part 3: Load Windows Attack Logs</h1>
+    <a href="https://github.com/user-attachments/files/19377560/windows_server_attack_logs.zip">Windows_Server_Attack_Logs.csv</a>
 
   <p>In this first part, you will upload Windows attack logs into your Splunk environment.</p>
 
